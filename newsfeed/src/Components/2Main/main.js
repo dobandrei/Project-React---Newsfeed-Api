@@ -18,7 +18,7 @@ class Main extends Component  {
 componentDidMount() {
   this.setState({loading:true})
 
-  fetch('http://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=59bd456150dc4b619e5595414eba1589')
+  fetch('http://newsapi.org/v2/everything?domains=wsj.com&apiKey=59bd456150dc4b619e5595414eba1589')
   .then(response => response.json())
   .then(data => {
     this.setState ({

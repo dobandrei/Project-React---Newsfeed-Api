@@ -1,0 +1,42 @@
+.header {
+    box-sizing: border-box;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100vh;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logoDOB {
+    border-bottom: 1px solid white;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    font-size: 30px;
+    
+}
+
+.logoNews{
+    color: red;
+    font-weight: bold;
+    font-size: 50px;
+    background-color: black;
+    padding: 0 20px;
+}
+
+.tabs ul {
+    display:flex;
+    justify-content: space-around;
+    list-style-type: none;
+
+}
+
+.tabs ul  li {
+    padding: 10px;
+    margin: 20px;
+}

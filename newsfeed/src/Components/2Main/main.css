@@ -49,6 +49,10 @@
   margin: 0;
   box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
 }
+.container p:hover{
+  color: rgb(13, 92, 138);
+}
+
 .containerTopStory{
     border:1px dotted grey;
     width:86%;
@@ -63,5 +67,8 @@
     font-size: 25px;
     margin: 0;
     box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+  }
+  .containerTopStory p:hover{
+    color: rgb(13, 92, 138);
   }
 
